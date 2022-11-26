@@ -13,8 +13,9 @@ class HomePage extends StatelessWidget {
           children: [
             Center(
               child: ElevatedButton(
-                  onPressed: (() => API().fetchData().toString()),
-                  child: Text("Click Me To See Response")),
+                onPressed: (() => QouteR()),
+                child: Text("Click Me To See Response"),
+              ),
             ),
             // Text(API().fetchData().li),
           ]),

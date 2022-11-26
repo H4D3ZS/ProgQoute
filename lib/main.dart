@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:progqou/Screens/HomePage.dart';
-import 'package:progqou/Screens/SecondScreen.dart';
+import 'package:progqou/Screens/Views/mobile/mobile.dart';
 import 'package:responsive_framework/responsive_framework.dart';
 
 void main() {
@@ -25,7 +24,7 @@ class MainApp extends StatelessWidget {
           ],
           background: Container(color: const Color(0xFFF5F5F5))),
       routes: {
-        '/': (context) => const Scaffold(body: HomePage()),
+        '/': (context) => const Scaffold(body: MobileMain()),
         // '/second': (context) => const Scaffold(body: SecondPage()),
       },
     );
